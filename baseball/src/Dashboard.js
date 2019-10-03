@@ -1,12 +1,17 @@
 import React, {useState} from 'react';
 import Display from './Display';
 
+
+export function addOne(num){
+  return num + 1;
+}
+
 function Dashboard(){
   const addStrike = () => strike >= 2 ? resetHit() : setStrike(strike + 1) ;
 
-  const addBall = () => ball >=3 ? resetHit() : setBall   (ball + 1);
+  const addBall = () => ball >=3 ? resetHit() : setBall(ball + 1);
 
-  const foulBall = () => foul < 2 ? foulStrike() :        setFoul(foul + 1);
+  const foulBall = () => strike < 2 ? foulStrike() :  setFoul(foul + 1);
 
   function foulStrike(){
     setFoul(foul + 1) 
@@ -33,7 +38,7 @@ function Dashboard(){
   const [foul, setFoul] = useState(0);
 
   return(
-    <div className = 'parent'>
+    <div id = 'parent'>
       <div className = 'dashboardP'>
     <div className = 'dashboard'>
       
