@@ -39,6 +39,7 @@ function Dashboard(){
 
   return(
     <div id = 'parent'>
+      <h1>Score Board</h1>
       <div className = 'dashboardP'>
     <div className = 'dashboard'>
       

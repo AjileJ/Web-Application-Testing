@@ -56,12 +56,4 @@ test('hit is found', () => {
 
 
 
-// test('addTouchdown adds 7 points to the current score', () => {
-//   let actual;
-//   let expected;
-//   actual = addTouchdown(10);
-//   expected = 17;
-//   expect(actual).toBe(expected);
-//   expect(actual).not.toBe(13);
-
 
