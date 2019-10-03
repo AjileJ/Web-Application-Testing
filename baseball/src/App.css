@@ -28,7 +28,7 @@
   border: 1px solid red;
   background: black;
   width: 50%;
-  padding: 4px;
+  padding: 20px;
 }
 
 .dashboardP {
@@ -44,6 +44,7 @@
   border: 1px solid red;
   background: gold;
   width:50%;
+  padding: 1%;
 }
 .displayP {
   display: flex;
@@ -57,4 +58,33 @@ h1{
 }
 body {
   background: gray;
+}
+h2 {
+  border: 5px solid red;
+  color: gold;
+  padding: 1%;
+}
+.playball {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  background: black;
+  align-items: center;
+
+}
+.playC {
+  display: flex;
+  justify-content: center;
+
+}
+button {
+  padding: 4px 10px 4px 10px;
+  border-radius: 5px;
+  background: gold;
+  border: 2px solid red;
+
+}
+p {
+  border: 1px solid black;
+  padding: 5px;
 }

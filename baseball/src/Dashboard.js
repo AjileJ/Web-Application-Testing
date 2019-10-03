@@ -58,6 +58,11 @@ function Dashboard(){
       <Display strike={strike} ball={ball} hit={hit} foul = {foul} />
       </div>
       </div>
+      <div className = 'playC'>
+      <div className ='playball'>
+        <h2>Play Ball !</h2>
+      </div>
+     </div>
       </div>
   )
 }
