@@ -26,9 +26,9 @@ test('strike id found', () => {
   getByText(/strike/i);
 });
 
-test('ball id found', () => {
-  const { getByText } = render(<Dashboard />);
-  getByText(/ball/i);
+test('ball is found', () => {
+  const { getAllByText } = render(<Dashboard />);
+  getAllByText(/ball/i);
 });
 
 test('foul is found', () => {

@@ -38,7 +38,7 @@ function Dashboard(){
   const [foul, setFoul] = useState(0);
 
   return(
-    <div id = 'parent'>
+    <div className = 'parent'>
       <h1>Score Board</h1>
       <div className = 'dashboardP'>
     <div className = 'dashboard'>
@@ -60,7 +60,7 @@ function Dashboard(){
       </div>
       <div className = 'playC'>
       <div className ='playball'>
-        <h2>Play Ball !</h2>
+        <h2 onClick={()=> resetHit()}>Play Ball !</h2>
       </div>
      </div>
       </div>
